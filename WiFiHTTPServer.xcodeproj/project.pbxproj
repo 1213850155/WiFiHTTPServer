@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2616EEBCEE6DD1CC5977131C /* libPods-WiFiHTTPServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236FBCD3C80553A2436378DC /* libPods-WiFiHTTPServer.a */; };
 		5D8AAD4E20E9D600009E5B46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8AAD4D20E9D600009E5B46 /* AppDelegate.m */; };
 		5D8AAD5120E9D600009E5B46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8AAD5020E9D600009E5B46 /* ViewController.m */; };
 		5D8AAD5420E9D600009E5B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8AAD5220E9D600009E5B46 /* Main.storyboard */; };
@@ -16,6 +17,11 @@
 		5D8AAD5F20E9D600009E5B46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8AAD5E20E9D600009E5B46 /* main.m */; };
 		5D8AAD6920E9D600009E5B46 /* WiFiHTTPServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8AAD6820E9D600009E5B46 /* WiFiHTTPServerTests.m */; };
 		5D8AAD7420E9D600009E5B46 /* WiFiHTTPServerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8AAD7320E9D600009E5B46 /* WiFiHTTPServerUITests.m */; };
+		5D8AAD8720E9D709009E5B46 /* HmTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8AAD8420E9D708009E5B46 /* HmTool.m */; };
+		5D8AAD8820E9D709009E5B46 /* HmSupportiTunesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8AAD8520E9D708009E5B46 /* HmSupportiTunesController.m */; };
+		5D8AAD8920E9D709009E5B46 /* HmHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8AAD8620E9D708009E5B46 /* HmHTTPConnection.m */; };
+		5D8AAD8D20E9D713009E5B46 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D8AAD8B20E9D713009E5B46 /* index.html */; };
+		5D8AAD8E20E9D713009E5B46 /* upload.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D8AAD8C20E9D713009E5B46 /* upload.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C63DF19B36F1D40FF207336 /* Pods-WiFiHTTPServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiHTTPServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiFiHTTPServer/Pods-WiFiHTTPServer.debug.xcconfig"; sourceTree = "<group>"; };
+		236FBCD3C80553A2436378DC /* libPods-WiFiHTTPServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WiFiHTTPServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8AAD4920E9D600009E5B46 /* WiFiHTTPServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiHTTPServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8AAD4C20E9D600009E5B46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D8AAD4D20E9D600009E5B46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +61,15 @@
 		5D8AAD6F20E9D600009E5B46 /* WiFiHTTPServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFiHTTPServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8AAD7320E9D600009E5B46 /* WiFiHTTPServerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiFiHTTPServerUITests.m; sourceTree = "<group>"; };
 		5D8AAD7520E9D600009E5B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8AAD8120E9D707009E5B46 /* HmSupportiTunesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HmSupportiTunesController.h; sourceTree = "<group>"; };
+		5D8AAD8220E9D708009E5B46 /* HmTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HmTool.h; sourceTree = "<group>"; };
+		5D8AAD8320E9D708009E5B46 /* HmHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HmHTTPConnection.h; sourceTree = "<group>"; };
+		5D8AAD8420E9D708009E5B46 /* HmTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HmTool.m; sourceTree = "<group>"; };
+		5D8AAD8520E9D708009E5B46 /* HmSupportiTunesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HmSupportiTunesController.m; sourceTree = "<group>"; };
+		5D8AAD8620E9D708009E5B46 /* HmHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HmHTTPConnection.m; sourceTree = "<group>"; };
+		5D8AAD8B20E9D713009E5B46 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		5D8AAD8C20E9D713009E5B46 /* upload.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = upload.html; sourceTree = "<group>"; };
+		7C2CF0DC5CB4781F40B5C182 /* Pods-WiFiHTTPServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiHTTPServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiFiHTTPServer/Pods-WiFiHTTPServer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2616EEBCEE6DD1CC5977131C /* libPods-WiFiHTTPServer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +105,8 @@
 				5D8AAD6720E9D600009E5B46 /* WiFiHTTPServerTests */,
 				5D8AAD7220E9D600009E5B46 /* WiFiHTTPServerUITests */,
 				5D8AAD4A20E9D600009E5B46 /* Products */,
+				F2F7335E8DDD1220F612FF48 /* Pods */,
+				D6FBCCA2998CF95FB996CEC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +123,17 @@
 		5D8AAD4B20E9D600009E5B46 /* WiFiHTTPServer */ = {
 			isa = PBXGroup;
 			children = (
+				5D8AAD8A20E9D713009E5B46 /* web */,
 				5D8AAD4C20E9D600009E5B46 /* AppDelegate.h */,
 				5D8AAD4D20E9D600009E5B46 /* AppDelegate.m */,
 				5D8AAD4F20E9D600009E5B46 /* ViewController.h */,
 				5D8AAD5020E9D600009E5B46 /* ViewController.m */,
+				5D8AAD8320E9D708009E5B46 /* HmHTTPConnection.h */,
+				5D8AAD8620E9D708009E5B46 /* HmHTTPConnection.m */,
+				5D8AAD8120E9D707009E5B46 /* HmSupportiTunesController.h */,
+				5D8AAD8520E9D708009E5B46 /* HmSupportiTunesController.m */,
+				5D8AAD8220E9D708009E5B46 /* HmTool.h */,
+				5D8AAD8420E9D708009E5B46 /* HmTool.m */,
 				5D8AAD5220E9D600009E5B46 /* Main.storyboard */,
 				5D8AAD5820E9D600009E5B46 /* Assets.xcassets */,
 				5D8AAD5A20E9D600009E5B46 /* LaunchScreen.storyboard */,
@@ -135,6 +162,32 @@
 			path = WiFiHTTPServerUITests;
 			sourceTree = "<group>";
 		};
+		5D8AAD8A20E9D713009E5B46 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				5D8AAD8B20E9D713009E5B46 /* index.html */,
+				5D8AAD8C20E9D713009E5B46 /* upload.html */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+		D6FBCCA2998CF95FB996CEC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				236FBCD3C80553A2436378DC /* libPods-WiFiHTTPServer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2F7335E8DDD1220F612FF48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C63DF19B36F1D40FF207336 /* Pods-WiFiHTTPServer.debug.xcconfig */,
+				7C2CF0DC5CB4781F40B5C182 /* Pods-WiFiHTTPServer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D8AAD7820E9D600009E5B46 /* Build configuration list for PBXNativeTarget "WiFiHTTPServer" */;
 			buildPhases = (
+				7841EBEB302D738E14B56A40 /* [CP] Check Pods Manifest.lock */,
 				5D8AAD4520E9D600009E5B46 /* Sources */,
 				5D8AAD4620E9D600009E5B46 /* Frameworks */,
 				5D8AAD4720E9D600009E5B46 /* Resources */,
+				E61107CD92AD17FD7B7A3493 /* [CP] Embed Pods Frameworks */,
+				27E122C062418424481E8ED7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,6 +298,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D8AAD5C20E9D600009E5B46 /* LaunchScreen.storyboard in Resources */,
+				5D8AAD8E20E9D713009E5B46 /* upload.html in Resources */,
+				5D8AAD8D20E9D713009E5B46 /* index.html in Resources */,
 				5D8AAD5920E9D600009E5B46 /* Assets.xcassets in Resources */,
 				5D8AAD5420E9D600009E5B46 /* Main.storyboard in Resources */,
 			);
@@ -263,14 +321,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27E122C062418424481E8ED7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WiFiHTTPServer/Pods-WiFiHTTPServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7841EBEB302D738E14B56A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E61107CD92AD17FD7B7A3493 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WiFiHTTPServer/Pods-WiFiHTTPServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D8AAD4520E9D600009E5B46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5D8AAD5720E9D600009E5B46 /* WiFiHTTPServer.xcdatamodeld in Sources */,
+				5D8AAD8720E9D709009E5B46 /* HmTool.m in Sources */,
 				5D8AAD5120E9D600009E5B46 /* ViewController.m in Sources */,
 				5D8AAD5F20E9D600009E5B46 /* main.m in Sources */,
+				5D8AAD8920E9D709009E5B46 /* HmHTTPConnection.m in Sources */,
+				5D8AAD8820E9D709009E5B46 /* HmSupportiTunesController.m in Sources */,
 				5D8AAD4E20E9D600009E5B46 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,11 +541,13 @@
 		};
 		5D8AAD7920E9D600009E5B46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C63DF19B36F1D40FF207336 /* Pods-WiFiHTTPServer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KNWG2P7G76;
 				INFOPLIST_FILE = WiFiHTTPServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ulaiber.com.WiFiHTTPServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,11 +557,13 @@
 		};
 		5D8AAD7A20E9D600009E5B46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2CF0DC5CB4781F40B5C182 /* Pods-WiFiHTTPServer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KNWG2P7G76;
 				INFOPLIST_FILE = WiFiHTTPServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ulaiber.com.WiFiHTTPServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
